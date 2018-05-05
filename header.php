@@ -31,6 +31,7 @@
 <link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
 
 <link rel="icon" type="image/png" href="img/favicon.png" sizes="196x196">
+<link href="Backend_CSS/developer.css" rel="stylesheet">
 <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
@@ -43,14 +44,16 @@
 <!--menu-->
     <nav id="main_menu" class="navbar" role="navigation">
       <div class="container">
-            <div class="navbar-header">
+            <div class="navbar-header">						
         <!--toggle-->
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
 				<i class="fa fa-bars"></i>
 			</button>
 		<!--logo-->
-			<div class="logo">
+		
+			<div class="logo">				
 				<a href="index.php"><img src="img/logo.png" alt="Remica Tiles" class="animated bounceInDown" /></a> 
+				<div class="caption rev-title-sub logo-text">REMICA TILES</div>
 			</div>
 		</div>
            
