@@ -9,8 +9,8 @@
 		<a href="http://www.facebook.com/sharer.php?s=100&p[url]=http://www.remicatiles.com&p[images][0]=http://www.remicatiles.com/img/the-best-school-logo.png&p[title]=Remica Tiles&p[summary]=Remica Tiles" class="fa fa-facebook follow_us" target="_blank"></a>
 		<a href="#" class="fa fa-linkedin follow_us" target="_blank"></a>
 
-		</div>
 	</div>
+</div>
 
 <!-- footer 2 -->
 	<div id="footer2">

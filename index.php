@@ -2,6 +2,21 @@
 	require_once 'header.php';
 
 ?>
+
+	<div id="banner">
+		<div class="container intro_wrapper">
+			<div class="inner_content">	
+			<!--welcome-->
+				<div class="welcome_index">				
+					<a href="#"><span class="hue_block white normal">Professional</span></a> &
+					<span class="hue"> Outstanding</span> ideas of our passionate team makes us unique in every <span>sense</span>			
+				</div>
+			<!--//welcome-->
+			</div>
+		</div>
+	</div>
+	<!--//banner-->
+
 	
 	<!--page-->
 		<!-- REVOLUTION SLIDER -->
@@ -33,9 +48,9 @@
 				</div> -->
 				
 				<!-- Caption -->
-				<div class="caption lfl stl rev-title-sub" data-x="center" data-y="260" data-speed="800" data-start="1100" data-easing="easeOutExpo">
+				<!-- <div class="caption lfl stl rev-title-sub" data-x="center" data-y="260" data-speed="800" data-start="1100" data-easing="easeOutExpo">
 				REMICA TILES
-				</div>
+				</div> -->
 				
 				<!-- Caption -->
 				<!-- <div class="caption sfb" data-x="center" data-y="350" data-speed="1100" data-start="1500" data-easing="easeOutExpo">
@@ -108,20 +123,7 @@
         </div>
         <!-- // END REVOLUTION SLIDER -->
 
-	<div id="banner">
-	<div class="container intro_wrapper">
-	<div class="inner_content">
-	
-	<!--welcome-->
-		<div class="welcome_index">				
-			<a href="#"><span class="hue_block white normal">Professional</span></a> &
-			<span class="hue"> Outstanding</span> ideas of our passionate team makes us unique in every <span>sense</span>			
-		</div>
-	<!--//welcome-->
-		</div>
-			</div>
-				</div>
-				<!--//banner-->
+
 			
 	<div class="container wrapper">
 	<div class="inner_content">
