@@ -138,7 +138,7 @@
 			<hr class="team-line">
 			<a href="#" class="zocial icon twitter team_ic"></a>
 			<!-- <a href="#" class="zocial icon facebook team_ic"></a> -->
-			<a href="#" class="zocial icon github team_ic"></a>
+			<a href="#" class="zocial icon linkedin team_ic"></a>
 			</div>
 			<div class="pad15"></div>
 		</div>

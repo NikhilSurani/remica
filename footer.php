@@ -19,7 +19,7 @@
 				<div class="col-md-12">							
 				<!-- <a href="javascript:void(0)"><img src="img/logo.png" alt="Remica Tiles" class="animated bounceInDown"  align="left" /></a> 			 -->
 				<div class="copyright">									
-				<?php echo SITE_TITLE ?> &copy; Copyright
+				<?= SITE_TITLE ?> &copy; Copyright
 							<script type="text/javascript">							
 								var d = new Date()
 								document.write(d.getFullYear())							
@@ -61,22 +61,22 @@
 
 				
 			});
-			
-		
-    </script>
-    
-	<script type="text/javascript" src="Backend_JS/validate.js" ></script>
-	<script type="text/javascript" src="Backend_JS/common.js" ></script>
-
+	</script>
+	
+<script src="js/retina.js"></script>
 <script src="js/jquery.touchSwipe.min.js"></script>
 <script src="js/jquery.mousewheel.min.js"></script>				
 <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
 <script type="text/javascript" src="js/scripts.js"></script>
-<script src="js/retina.js"></script>
+<script src="js/jquery.isotope.min.js" type="text/javascript"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+
+<script type="text/javascript" src="Backend_JS/validate.js" ></script>
+<script type="text/javascript" src="Backend_JS/common.js" ></script>
 <!-- carousel -->
 <script type="text/javascript" src="js/jquery.carouFredSel-6.2.1-packed.js"></script>
 <script type="text/javascript">
-//<![CDATA[
+
 jQuery(document).ready(function($) {
 	$("#slider_home").carouFredSel({ 
 		width : "100%", 
@@ -92,7 +92,20 @@ jQuery(document).ready(function($) {
 		});
 
 	});
-//]]>
+
+	var $container = $('.projects');
+	$container.imagesLoaded(function() {
+	$('.projects').fadeIn(1000).isotope({
+	layoutMode : 'fitRows',
+    itemSelector : '.element' });
+	});
+	$('.element').css('opacity',0);
+	$('.element').each(function(i){
+	$(this).delay(i*150).animate({'opacity':1},350);
+	
+	
+});
+
 </script>
 <script src="styleswitcher/js/styleswitcher.js"></script>
 
