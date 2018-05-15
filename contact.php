@@ -6,7 +6,7 @@
 <div id="banner">
 		<div class="container intro_wrapper">
 			<div class="inner_content">
-				<h1>Get In Touch</h1>
+				<!-- <h1>Get In Touch</h1> -->
 					<h1 class="title">Contact Information</h1>
 						<h1 class="intro">
 							It's art if it can't be explained. It's <span>fashion</span> if no one asks for an <span>explanation.</span> 
