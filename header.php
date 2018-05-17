@@ -1,12 +1,12 @@
 <?php 
-    require_once 'constants.php';
+	include_once('constants.php');
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Remica Tiles</title>
+<title><?= SITE_TITLE ?></title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="<?=AUTHOR ?>">
@@ -53,7 +53,7 @@
 		
 			<div class="logo">				
 				<a href="index.php"><img src="img/logo.png" alt="Remica Tiles" class="animated bounceInDown" /></a> 
-				<div class="caption rev-title-sub logo-text">REMICA TILES</div>
+				<div class="caption rev-title-sub logo-text"><?= SITE_TITLE ?></div>
 			</div>
 		</div>
            
@@ -99,6 +99,7 @@
 							<li class="dropdown "><a href="javascript:{}">Portfolio</a>
 						<ul class="dropdown-menu">								
 								<li><a href="floor.php">FLOOR</a>
+
 <!--								<ul class="dropdown-menu sub-menu">-->
 <!--									<li><a href="#">600x600-mm-digital-glossy-floor-tiles</a></li>-->
 <!--									<li><a href="#">600x600-mm-digital-matt-floor-tiles</a></li>-->

@@ -1,18 +1,16 @@
 <?php 
-###################################################
-####### DIRECTORY SEPERATOR
-###################################################
+#### SITE AUTHOR ####
+define("AUTHOR", "NIKHIL SURANI");
+#### DIRECTORY SEPERATOR ####
 define("DS", '/');
-// Site url
+
 // define("SITE_URL", "http://www.remicatiles.com".DS);
 define("SITE_URL", "localhost/remicademo".DS);
 define("SITE_TITLE", "REMICA TILES");
 
-####################################################
-######## MESSAGES
-####################################################
-define("user_name", "");
 
+#### MESSAGES ####
+define("user_name", "");
 
 define("SUCCESS_MSG", "Thank you for your interest.");
 define("ERROR_MSG", "Please try again after sometimes.");
@@ -31,4 +29,3 @@ define("ADMIN_USERNAME", "Kamal Shah");
 
 
 
-define("AUTHOR", "NIKHIL SURANI");
