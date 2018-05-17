@@ -98,19 +98,19 @@
 							</li>
 							<li class="dropdown "><a href="javascript:{}">Portfolio</a>
 						<ul class="dropdown-menu">								
-								<li><a href="javascript:{}">FLOOR</a>
-								<ul class="dropdown-menu sub-menu">
-									<li><a href="#">600x600-mm-digital-glossy-floor-tiles</a></li>
-									<li><a href="#">600x600-mm-digital-matt-floor-tiles</a></li>
-									<li><a href="#">600x600-mm-non-digital-floor-tiles</a></li>									
-								</ul>
-								<li><a href="javascript:{}">WALL</a>
-								<ul class="dropdown-menu sub-menu">
-									<li><a href="#">Sub One</a></li>
-									<li><a href="#">Sub Two</a></li>
-									<li><a href="#">Sub Three</a></li>
-									<li><a href="#">Sub Four</a></li>
-								</ul>
+								<li><a href="floor.php">FLOOR</a>
+<!--								<ul class="dropdown-menu sub-menu">-->
+<!--									<li><a href="#">600x600-mm-digital-glossy-floor-tiles</a></li>-->
+<!--									<li><a href="#">600x600-mm-digital-matt-floor-tiles</a></li>-->
+<!--									<li><a href="#">600x600-mm-non-digital-floor-tiles</a></li>									-->
+<!--								</ul>-->
+								<li><a href="wall.php">WALL</a>
+<!--								<ul class="dropdown-menu sub-menu">-->
+<!--									<li><a href="#">Sub One</a></li>-->
+<!--									<li><a href="#">Sub Two</a></li>-->
+<!--									<li><a href="#">Sub Three</a></li>-->
+<!--									<li><a href="#">Sub Four</a></li>-->
+<!--								</ul>-->
 						</ul>
 							</li>
 							<!-- <li class="dropdown"><a href="javascript:{}">Extras</a> -->
