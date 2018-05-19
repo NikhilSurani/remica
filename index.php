@@ -207,7 +207,7 @@
 			
 			<div id="slider_home">
                 <?php
-                    include_once "admin/config.php";
+                    require_once "admin/config.php";
                     $query = mysql_query('SELECT image_title, description, img_origional_name FROM products where status = 1');
                     while($row = mysql_fetch_array($query)) {
                         $image = 'img/portfolio/'.$row['img_origional_name'];
