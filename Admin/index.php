@@ -1,6 +1,7 @@
 <?php
 session_start();
-include "config.php";
+require_once "config.php";
+require_once "../constants.php";
 if(!empty($_POST['uname']) && !empty($_POST['psw']) ){
 	
 	$user = $_POST['uname'];
@@ -28,7 +29,7 @@ if (isset($_POST['login']))
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>SiddharthManufacturing</title>
+<title><?php echo SITE_TITLE; ?></title>
 
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/datepicker3.css" rel="stylesheet">
@@ -46,7 +47,7 @@ if (isset($_POST['login']))
 	<div class="row" style="margin-top:10%">
 		<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4">
 			<div class="login-panel panel panel-default">
-				<div class="panel-heading"><a><span	>Siddharth</span></a>Manufacturing<span style="float:right">Log in</span></div>
+				<div class="panel-heading"><a><span	><?php echo SITE_TITLE; ?><span style="float:right">Log in</span></div>
 				<div class="panel-body">
 					<form role="form" action="#" method="post">
 						<fieldset>

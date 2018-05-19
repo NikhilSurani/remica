@@ -1,5 +1,6 @@
 <?php
     include_once("header.php");
+    require_once ("admin/config.php");
 ?>
 
 <!--page-->
@@ -35,7 +36,7 @@
                 <div class="row">
                     <div class="projects">
                         <?php
-                        $productSelect = mysql_query("SELECT sub_type,img_origional_name, image_title, description FROM products WHERE type = 1 and status = 1");
+                        $productSelect = mysql_query("SELECT sub_type,img_origional_name, image_title, description FROM products WHERE type = 2 and status = 1");
                         while ($row = mysql_fetch_array($productSelect)) {
                             echo '<div class="col-xs-12 col-sm-6 col-md-3 element category'.$row[0].'" data-category="category'.$row[0].'">';
                             echo '<div class="hover_img">';

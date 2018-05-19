@@ -1,6 +1,7 @@
 <?php
 session_start();
 include "config.php";
+require_once "../constants.php";
 if (isset($_SESSION['uname']))
 {
 		if (isset($_POST['change']))
@@ -32,7 +33,7 @@ if (isset($_SESSION['uname']))
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>SiddharthManufacturing</title>
+<title><?php echo SITE_TITLE; ?></title>
 
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/datepicker3.css" rel="stylesheet">
