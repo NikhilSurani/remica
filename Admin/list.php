@@ -3,7 +3,7 @@ session_start();
 include "config.php";
 
 include_once("constants.php");
-
+require_once "../constants.php";
 if (isset($_SESSION['uname']))
 {
 ?>
@@ -13,7 +13,7 @@ if (isset($_SESSION['uname']))
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>SiddharthManufacturing</title>
+<title><?php echo SITE_TITLE; ?></title>
 
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/datepicker3.css" rel="stylesheet">
@@ -44,7 +44,7 @@ if (isset($_SESSION['uname']))
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#"><span>Siddharth</span>Manufacturing</a>
+				<a class="navbar-brand" href="#"><?php echo SITE_TITLE; ?></a>
 				<ul class="user-menu">
 					<li class="dropdown pull-right">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg> User <span class="caret"></span></a>
@@ -60,16 +60,16 @@ if (isset($_SESSION['uname']))
 	</nav>
 		
 	<div id="sidebar-collapse" class="col-sm-3 col-lg-2 sidebar">
-		<form role="search">
-			<div class="form-group">
-				<input type="text" class="form-control" placeholder="Search">
-			</div>
-		</form>
+<!--		<form role="search">-->
+<!--			<div class="form-group">-->
+<!--				<input type="text" class="form-control" placeholder="Search">-->
+<!--			</div>-->
+<!--		</form>-->
 		<ul class="nav menu">
 			<li class="active"><a href="list.php"><svg class="glyph stroked clipboard with paper"><use xlink:href="#stroked-clipboard-with-paper"></use></svg> List Item</a></li>
 			<li><a href="add.php"><svg class="glyph stroked plus sign"><use xlink:href="#stroked-plus-sign"></use></svg> Add Item</a></li>
-			<li><a href="update.php"><svg class="glyph stroked pencil"><use xlink:href="#stroked-pencil"></use></svg> Update Item</a></li>
-			<li><a href="delete.php"><svg class="glyph stroked trash"><use xlink:href="#stroked-trash"></use></svg> Delete Item</a></li>
+<!--			<li><a href="update.php"><svg class="glyph stroked pencil"><use xlink:href="#stroked-pencil"></use></svg> Update Item</a></li>-->
+<!--			<li><a href="delete.php"><svg class="glyph stroked trash"><use xlink:href="#stroked-trash"></use></svg> Delete Item</a></li>-->
 		</ul>
 
 	</div><!--/.sidebar-->

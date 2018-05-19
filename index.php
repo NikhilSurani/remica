@@ -208,7 +208,7 @@
 			<div id="slider_home">
                 <?php
                     require_once "admin/config.php";
-                    $query = mysql_query('SELECT image_title, description, img_origional_name FROM products where status = 1');
+                    $query = mysql_query('SELECT image_title, description, img_origional_name FROM products where status = 1 ORDER BY RAND() LIMIT 10');
                     while($row = mysql_fetch_array($query)) {
                         $image = 'img/portfolio/'.$row['img_origional_name'];
                         $title = $row['image_title'];
