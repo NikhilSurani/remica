@@ -1,4 +1,4 @@
-<?php 
+<?php
 	require_once 'header.php';
 
 ?>
@@ -206,109 +206,130 @@
 			<div class="col-xs-12 col-sm-12 col-md-8 pad30">
 			
 			<div id="slider_home">
-            <div class="slider-item">	
-				<div class="slider-image">
-				<div class="hover_colour">
-				<a href="img/large/s1.jpg" data-rel="prettyPhoto">
-					<img src="img/small/s1.jpg" alt="" /></a>
-					</div>
-				</div>
-				<div class="slider-title">
-				<h3><a href="#">catalogue</a></h3>
-				<p>An his tamquam postulant, pri id mazim nostrud diceret.</p>
-				</div>
-			</div>
-			
-			<div class="slider-item">
-				<div class="slider-image">
-				<div class="hover_colour">
-				<a href="img/large/s2.jpg" data-rel="prettyPhoto">
-					<img src="img/small/s2.jpg" alt="" /></a>
-					</div>
-				</div>
-				<div class="slider-title">
-				<h3><a href="#">loupe</a></h3>
-				<p>An his tamquam postulant, pri id mazim nostrud diceret.</p>
-				</div>
-			</div>
-			
-			<div class="slider-item">
-				<div class="slider-image">
-				<div class="hover_colour">
-				<a href="img/large/s3.jpg" data-rel="prettyPhoto">
-					<img src="img/small/s3.jpg" alt="" /></a>
-					</div>
-				</div>
-				<div class="slider-title">
-				<h3><a href="#">retro rocket</a></h3>
-				<p>An his tamquam postulant, pri id mazim nostrud diceret.</p>
-				</div>
-			</div>
-			
-			<div class="slider-item">
-				<div class="slider-image">
-				<div class="hover_colour">
-				<a href="img/large/s4.jpg" data-rel="prettyPhoto">
-					<img src="img/small/s4.jpg" alt="" /></a>
-					</div>
-				</div>
-				<div class="slider-title">
-				<h3><a href="#">infographics</a></h3>
-				<p>An his tamquam postulant, pri id mazim nostrud diceret.</p>
-				</div>
-			</div>
-			
-			<div class="slider-item">
-				<div class="slider-image">
-				<div class="hover_colour">
-				<a href="img/large/s5.jpg" data-rel="prettyPhoto">
-					<img src="img/small/s5.jpg" alt="" /></a>
-					</div>
-				</div>
-				<div class="slider-title">
-				<h3><a href="#">mock up</a></h3>
-					<p>An his tamquam postulant, pri id mazim nostrud diceret.</p>
-					</div>
-				</div>
-			
-			<div class="slider-item">
-				<div class="slider-image">
-				<div class="hover_colour">
-				<a href="img/large/s6.jpg" data-rel="prettyPhoto">
-					<img src="img/small/s6.jpg" alt="" /></a>
-					</div>
-				</div>
-				<div class="slider-title">
-				<h3><a href="#">retro badges</a></h3>
-					<p>An his tamquam postulant, pri id mazim nostrud diceret.</p>
-					</div>
-				</div>
-			
-			<div class="slider-item">
-			<div class="slider-image">
-				<div class="hover_colour">
-				<a href="img/large/s7.jpg" data-rel="prettyPhoto">
-					<img src="img/small/s7.jpg" alt="" /></a>
-					</div>
-				</div>
-				<div class="slider-title">
-				<h3><a href="#">details</a></h3>
-					<p>An his tamquam postulant, pri id mazim nostrud diceret.</p>
-				</div>
-			</div>
-			
-			<div class="slider-item">
-				<div class="slider-image">
-				<div class="hover_colour">
-				<a href="img/large/s8.jpg" data-rel="prettyPhoto">
-					<img src="img/small/s8.jpg" alt="" /></a>
-					</div>
-				</div>
-				<div class="slider-title">
-				<h3><a href="#">vintage form</a></h3>
-					<p>An his tamquam postulant, pri id mazim nostrud diceret.</p>
-				</div>
-			</div>
+                <?php
+                    require_once "admin/config.php";
+                    $query = mysql_query('SELECT image_title, description, img_origional_name FROM products where status = 1');
+                    while($row = mysql_fetch_array($query)) {
+                        $image = 'img/portfolio/'.$row['img_origional_name'];
+                        $title = $row['image_title'];
+                        $description = $row['description'];
+                        echo '<div class="slider-item" style="width: 231px; height: 253px;">';
+                        echo '<div class="slider-image">';
+                        echo '<div class="hover_colour">';
+                        echo '<a href="'.$image.'" data-rel="prettyPhoto">';
+                        echo '<img src="'.$image.'" style="height: 153px;"/></a>';
+                        echo '</div>';
+                        echo '</div>';
+                        echo '<div class="slider-title">';
+                        echo '<h3><a href="#">'.$title.'</a></h3>';
+                        echo '<p>'.$description.'</p>';
+                        echo '</div>';
+                        echo '</div>';
+                    }
+                ?>
+<!--            <div class="slider-item">-->
+<!--				<div class="slider-image">-->
+<!--				<div class="hover_colour">-->
+<!--				<a href="img/large/s1.jpg" data-rel="prettyPhoto">-->
+<!--					<img src="img/small/s1.jpg" alt="" /></a>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--				<div class="slider-title">-->
+<!--				<h3><a href="#">catalogue</a></h3>-->
+<!--				<p>An his tamquam postulant, pri id mazim nostrud diceret.</p>-->
+<!--				</div>-->
+<!--			</div>-->
+
+<!--			<div class="slider-item">-->
+<!--				<div class="slider-image">-->
+<!--				<div class="hover_colour">-->
+<!--				<a href="img/large/s2.jpg" data-rel="prettyPhoto">-->
+<!--					<img src="img/small/s2.jpg" alt="" /></a>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--				<div class="slider-title">-->
+<!--				<h3><a href="#">loupe</a></h3>-->
+<!--				<p>An his tamquam postulant, pri id mazim nostrud diceret.</p>-->
+<!--				</div>-->
+<!--			</div>-->
+<!--			-->
+<!--			<div class="slider-item">-->
+<!--				<div class="slider-image">-->
+<!--				<div class="hover_colour">-->
+<!--				<a href="img/large/s3.jpg" data-rel="prettyPhoto">-->
+<!--					<img src="img/small/s3.jpg" alt="" /></a>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--				<div class="slider-title">-->
+<!--				<h3><a href="#">retro rocket</a></h3>-->
+<!--				<p>An his tamquam postulant, pri id mazim nostrud diceret.</p>-->
+<!--				</div>-->
+<!--			</div>-->
+<!--			-->
+<!--			<div class="slider-item">-->
+<!--				<div class="slider-image">-->
+<!--				<div class="hover_colour">-->
+<!--				<a href="img/large/s4.jpg" data-rel="prettyPhoto">-->
+<!--					<img src="img/small/s4.jpg" alt="" /></a>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--				<div class="slider-title">-->
+<!--				<h3><a href="#">infographics</a></h3>-->
+<!--				<p>An his tamquam postulant, pri id mazim nostrud diceret.</p>-->
+<!--				</div>-->
+<!--			</div>-->
+<!--			-->
+<!--			<div class="slider-item">-->
+<!--				<div class="slider-image">-->
+<!--				<div class="hover_colour">-->
+<!--				<a href="img/large/s5.jpg" data-rel="prettyPhoto">-->
+<!--					<img src="img/small/s5.jpg" alt="" /></a>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--				<div class="slider-title">-->
+<!--				<h3><a href="#">mock up</a></h3>-->
+<!--					<p>An his tamquam postulant, pri id mazim nostrud diceret.</p>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--			-->
+<!--			<div class="slider-item">-->
+<!--				<div class="slider-image">-->
+<!--				<div class="hover_colour">-->
+<!--				<a href="img/large/s6.jpg" data-rel="prettyPhoto">-->
+<!--					<img src="img/small/s6.jpg" alt="" /></a>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--				<div class="slider-title">-->
+<!--				<h3><a href="#">retro badges</a></h3>-->
+<!--					<p>An his tamquam postulant, pri id mazim nostrud diceret.</p>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--			-->
+<!--			<div class="slider-item">-->
+<!--			<div class="slider-image">-->
+<!--				<div class="hover_colour">-->
+<!--				<a href="img/large/s7.jpg" data-rel="prettyPhoto">-->
+<!--					<img src="img/small/s7.jpg" alt="" /></a>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--				<div class="slider-title">-->
+<!--				<h3><a href="#">details</a></h3>-->
+<!--					<p>An his tamquam postulant, pri id mazim nostrud diceret.</p>-->
+<!--				</div>-->
+<!--			</div>-->
+<!--			-->
+<!--			<div class="slider-item">-->
+<!--				<div class="slider-image">-->
+<!--				<div class="hover_colour">-->
+<!--				<a href="img/large/s8.jpg" data-rel="prettyPhoto">-->
+<!--					<img src="img/small/s8.jpg" alt="" /></a>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--				<div class="slider-title">-->
+<!--				<h3><a href="#">vintage form</a></h3>-->
+<!--					<p>An his tamquam postulant, pri id mazim nostrud diceret.</p>-->
+<!--				</div>-->
+<!--			</div>-->
 				</div>
 				<div id="sl-prev" class="widget-scroll-prev"><i class="fa fa-chevron-left white"></i></div>
 				<div id="sl-next" class="widget-scroll-next"><i class="fa fa-chevron-right white but_marg"></i></div>

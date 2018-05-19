@@ -8,11 +8,11 @@ $GLOBALS['MAIN_CATEGORY']  = array(
 
 $GLOBALS['SUB_CATEGORY']  = array(
     '1' => array(
-        '1' => '600x600-mm-digital-glossy-floor-tiles',
-        '2' => '600x600-mm-digital-matt-floor-tiles',
-        '3' => '600x600-mm-non-digital-floor-tiles',
-        '4' => '300x300-mm-digital-floor-tiles',
-        '5' => '300x300-mm-non-digital-floor-tiles'
+        '1' => '60x60-RUSTIC-FLOOR',
+//        '2' => '600x600-mm-digital-matt-floor-tiles',
+//        '3' => '600x600-mm-non-digital-floor-tiles',
+//        '4' => '300x300-mm-digital-floor-tiles',
+//        '5' => '300x300-mm-non-digital-floor-tiles'
     ),
     '2' => array(
         '1' => '250x375-mm-digital-wall-tiles',

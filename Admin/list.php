@@ -122,9 +122,9 @@ if (isset($_SESSION['uname']))
 									while ($res = mysql_fetch_array($que))
 									{
 										echo "<tr scope='row'><td width='10%'>".$i."</td><td width='20%'>".$GLOBALS['MAIN_CATEGORY'] [$res['type']]."</td><td width='20%'>".$GLOBALS['SUB_CATEGORY'][$res['type']][$res['sub_type']]."</td><td width='20%'>".$res['image_title']."</td><td width='30%'><img height='50%' width='30%' class='img-responsive' src='../img/portfolio/".$res['img_origional_name']."'/></td><td>".$GLOBALS['STATUS'][$res['status']]."</td>";
-										echo "<td>";
+										echo "<td><a href='deleteImage.php?id=".$res[0]."&status=".$res['status']."'>";
 										$r = ($res['status'] == 0) ? "<span class='glyphicon glyphicon-ok'></span>" : '<span class="glyphicon glyphicon-remove"></span>';
-										echo $r ."</td>";
+										echo $r ."</a></td>";
 										echo "</tr>";
 										$i++;	
 									}
@@ -160,7 +160,7 @@ if (isset($_SESSION['uname']))
 									while ($res = mysql_fetch_array($que))
 									{
 										echo "<tr scope='row'><td width='10%'>".$i."</td><td width='20%'>".$GLOBALS['MAIN_CATEGORY'] [$res['type']]."</td><td width='20%'>".$GLOBALS['SUB_CATEGORY'][$res['type']][$res['sub_type']]."</td><td width='20%'>".$res['image_title']."</td><td width='30%'><img height='50%' width='30%' class='img-responsive' src='../img/portfolio/".$res['img_origional_name']."'/></td><td>".$GLOBALS['STATUS'][$res['status']]."</td>";
-										echo "<td>";
+										echo "<td><a href='deleteImage.php?id=".$res[0]."&status=".$res['status']."'>";
 										$r = ($res['status'] == 0) ? "<span class='glyphicon glyphicon-ok'></span>" : '<span class="glyphicon glyphicon-remove"></span>';
 										echo $r ."</td>";
 										echo "</tr>";

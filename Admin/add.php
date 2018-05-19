@@ -103,7 +103,7 @@ if (isset($_SESSION['uname']))
 								<input type="hidden" value="1" name="main_category" />
 								<div class="form-group">
 									<label>Sub Category</label>
-									 <select name="sub_category" class="form-control" id="sub_category">
+									 <select name="sub_category" class="form-control" id="sub_category" required>
 									 <option value="">Select Sub Category</option>
 									 <?php 
 									 	foreach($GLOBALS['SUB_CATEGORY'][1] as  $k => $index) {										 	
@@ -118,7 +118,7 @@ if (isset($_SESSION['uname']))
 		
 									<div class="form-group">
 									<label>Name</label>
-									<input type="text" class="form-control" name="image_name">
+									<input type="text" class="form-control" name="image_name" required>
  									</div>
 									 
 								<div class="form-group">
@@ -128,7 +128,7 @@ if (isset($_SESSION['uname']))
 									
 								<div class="form-group">
 									<label>Image</label>
-									<input type="file" name="ima" class="form-control"/>
+									<input type="file" name="ima" class="form-control" required/>
 									 </div>
 								<input type="submit" class="btn btn-primary" value="Add" name="e_btn">
 								</form>	
@@ -142,7 +142,7 @@ if (isset($_SESSION['uname']))
 									<input type="hidden" value="2" name="main_category" />
 								<div class="form-group">
 									<label>Sub Category</label>
-									<select name="sub_category" class="form-control" id="sub_category">
+									<select name="sub_category" class="form-control" id="sub_category" required>
 									 <option value="">Select Sub Category</option>
 									 <?php 
 									 	foreach($GLOBALS['SUB_CATEGORY'][2] as  $k => $index) {										 	
@@ -156,7 +156,7 @@ if (isset($_SESSION['uname']))
 								</div>
 								<div class="form-group">
 									<label>Name</label>
-									<input type="text" class="form-control" name="image_name">
+									<input type="text" class="form-control" name="image_name" required>
  								</div>
 
 								<div class="form-group">
@@ -165,7 +165,7 @@ if (isset($_SESSION['uname']))
 								</div>							
 								<div class="form-group">
 									<label>Image</label>
-									<input type="file" name="ima">
+									<input type="file" name="ima" required>
 									 </div>		
 									 <input type="submit" class="btn btn-primary" value="Add" name="e_btn">
 								</form>	
