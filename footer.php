@@ -1,3 +1,27 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container">
+    <div class="row">
+        <h2>Sticky Contact Form for Bootstrap</h2>
+        <!-- Form -->
+        <div class="nb-form">
+            <p class="title">Send a message</p>
+<!--            <img src="https://lh3.googleusercontent.com/-LvTWzTOL4c0/V2yhfueroyI/AAAAAAAAGZM/Ebwt4EO4YlIc03tw8wVsGrgoOFGgAsu4wCEw/w140-h140-p/43bf8578-86b8-4c1c-86a6-a556af8fba13" alt="" class="user-icon">-->
+            <p class="message">This is an awesome example of sticky contact form on right bottom of the page</p>
+
+            <form>
+                <input type="text" name="cpname" placeholder="Name:" required>
+                <input type="email" name="cpemail" placeholder="Email:" required>
+                <input type="tel" name="cpphone" placeholder="Phone:" required>
+                <textarea name="cpmessage" placeholder="Message:" required></textarea>
+                <input type="submit" value="Send message">
+            </form>
+        </div>
+    </div>
+</div>
 
 <div id="footer">
 		<h1>get in touch</h1>
