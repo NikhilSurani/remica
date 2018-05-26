@@ -125,7 +125,7 @@
 <!--2-->		
 	<div class="col-sm-6 col-md-6">
 		<div class="team_sections fadeindown">
-			<img alt="" src="img/team/team4.jpg" class="th">
+			<img alt="" src="img/team/team1.jpg" class="th">
 			<h5>
 				<span>Kamal Shah</span>
 			</h5>
@@ -145,7 +145,7 @@
 <!--3-->		
 	<div class="col-sm-6 col-md-6">
 		<div class="team_sections fadeindown">
-			<img alt="" src="img/team/team3.jpg" class="th ">
+			<img alt="" src="img/team/team2.jpg" class="th ">
 			<h5>
 				<span>Siddharth Shah</span>
 			</h5>

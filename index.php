@@ -3,19 +3,6 @@
 
 ?>
 
-	<div id="banner">
-		<div class="container intro_wrapper">
-			<div class="inner_content">	
-			<!--welcome-->
-				<div class="welcome_index">				
-					<a href="#"><span class="hue_block white normal">Professional</span></a> &
-					<span class="hue"> Outstanding</span> ideas of our passionate team makes us unique in every <span>sense</span>			
-				</div>
-			<!--//welcome-->
-			</div>
-		</div>
-	</div>
-	<!--//banner-->
 
 	
 	<!--page-->
@@ -124,12 +111,27 @@
         <!-- // END REVOLUTION SLIDER -->
 
 
+<div id="banner">
+    <div class="container intro_wrapper">
+        <div class="inner_content">
+            <!--welcome-->
+            <div class="welcome_index">
+                <a href="#"><span class="hue_block white normal">Professional</span></a> &
+                <span class="hue"> Outstanding</span> ideas of our passionate team makes us unique in every <span>sense</span>
+            </div>
+            <!--//welcome-->
+        </div>
+    </div>
+</div>
+<!--//banner-->
+
 			
 	<div class="container wrapper">
 	<div class="inner_content">
 	
 	<!--info boxes-->
 	<div class="row pad45">
+        <h1 class="text-center" style="font-size: 40px;padding-bottom: 20px;">why us ?</h1>
 			<div class="col-sm-6 col-md-3">
 				<div class="tile">
 					<div class="intro-icon-disc cont-large"><i class="fa fa-search intro-icon-large"></i></div>
@@ -188,12 +190,12 @@
 			<div class="col-md-12">
 			<div class="row">
 			
-			<div class="col-sm-12 col-md-4">
-			<h1>Recent Work</h1>
-			<h4>
+			<div class="col-sm-12 col-md-12">
+			<h1 class="center">Recent Work</h1>
+			<h4 class="center">
 				Lorem ipsum dolor sit amet, rebum putant recusabo in ius, pri simul tempor ne, his ei summo virtute.
 			</h4>
-			<p>
+			<p class="center">
 				Nam ea labitur pericula. Meis tamquam pro te, cibo mutat necessitatibus id vim. An his tamquam postulant, pri id mazim nostrud diceret 
 				sapientem eloquentiam sea cu, sea ut exerci delicata. Corrumpit vituperata.
 			</p>
@@ -201,9 +203,10 @@
 			<!-- <a href="#" class="btn btn-primary btn-custom btn-rounded">view portfolio</a> -->
 			<div class="pad30"></div>
 			</div>
-			
+
+                <div class="row">
 			<!--column 2 slider-->
-			<div class="col-xs-12 col-sm-12 col-md-8 pad30">
+			<div class="col-xs-12 col-sm-12 col-md-12 pad30">
 			
 			<div id="slider_home">
                 <?php
@@ -333,7 +336,7 @@
 				</div>
 				<div id="sl-prev" class="widget-scroll-prev"><i class="fa fa-chevron-left white"></i></div>
 				<div id="sl-next" class="widget-scroll-next"><i class="fa fa-chevron-right white but_marg"></i></div>
-			<div class="pad25"></div> </div>
+                <div class="pad25"></div> </div></div>
 				</div>
 				</div>
 			</div>
