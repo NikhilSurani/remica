@@ -2,7 +2,7 @@
 <?php
 error_reporting(0);
 $username = "root";
-$password = "";
+$password = "root";
 $hostname = "localhost"; 
 $db_database = 'remicatiles';
 

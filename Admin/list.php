@@ -128,7 +128,7 @@ if (isset($_SESSION['uname']))
 										echo "</tr>";
 										$i++;	
 									}
-									if(empty($res)) {
+									if(mysql_num_rows($que)== 0) {
 										echo "<tr><td colspan='7'>No Record Found.</td></tr>";
 									}
 								?>
@@ -166,7 +166,7 @@ if (isset($_SESSION['uname']))
 										echo "</tr>";
 										$i++;	
 									}
-									if(empty($res)) {
+									if(mysql_num_rows($que)== 0) {
 										echo "<tr><td colspan='7'>No Record Found.</td></tr>";
 									}
 								?>

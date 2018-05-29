@@ -2,23 +2,23 @@
   require('header.php');
 ?>
 <!--page-->
-<div id="banner">
-		<div class="container intro_wrapper">
-			<div class="inner_content">
+	<!-- <div id="banner">
+			<div class="container intro_wrapper">
+				<div class="inner_content"> -->
 				<!-- <h1>Skills and Goals</h1> -->
-					<h1 class="title">About Us</h1>
-						<h1 class="intro">
+					<!-- <h1 class="title">About Us</h1> -->
+						<!-- <h1 class="intro">
 							Web design is the creation of <span class="hue">digital environments</span>, that <span>facilitate</span> and encourage human activity; 
 							<span>reflect </span> or adapt to individual voices and content. - Jeffrey Zeldman
-						</h1>
-					</div>
-				</div>
-			</div>
+						</h1> -->
+					<!-- </div>
+				</div> 
+			</div> -->
 
 			<!--strip-->
 			<div class="strip">
-					<!-- <h1 class="center">About Us</h1> -->
-					<h3 class=" about_strip">
+					<h1 class="text-center" style="font-size: 40px;">About Us</h1>
+					<h3 class="about_strip">
 						The company has witnessed an unprecedented growth in terms of Size, Volume and Geographical Presence and much of this is credited to its robust Research and development activities.
 					</h3>
 					<br>
@@ -136,8 +136,8 @@
 				Praesent vestibulum taciti sociosqu ad litora molestie. Aenean hendrerit mauris phasellus porta. Fusce suscipit varius mi lorem.
 			</p>
 			<hr class="team-line">
-			<a href="#" class="zocial icon twitter team_ic"></a>
-			<!-- <a href="#" class="zocial icon facebook team_ic"></a> -->
+			<!-- <a href="#" class="zocial icon twitter team_ic"></a> -->
+			<a href="http://twitter.com/kamalSh87710374" class="zocial icon twitter team_ic follow_us" target="_blank"></a>					
 			<a href="#" class="zocial icon linkedin team_ic"></a>
 			</div>
 			<div class="pad15"></div>
@@ -155,9 +155,8 @@
 			<p class="team_bio">
 				Praesent vestibulum taciti sociosqu ad litora molestie. Aenean hendrerit mauris phasellus porta. Fusce suscipit varius mi lorem.
 			</p>
-			<hr class="team-line">
-			<a href="#" class="zocial icon twitter team_ic"></a>
-			<!-- <a href="#" class="zocial icon facebook team_ic"></a> -->
+			<hr class="team-line">			
+			<a href="http://twitter.com/Shahssiddharth" class="zocial icon twitter team_ic follow_us" target="_blank"></a>					
 			<a href="#" class="zocial icon linkedin team_ic"></a>
 			</div>
 			<div class="pad15"></div>

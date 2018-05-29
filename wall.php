@@ -1,6 +1,7 @@
 <?php
     include_once("header.php");
-    require_once ("admin/config.php");
+    require_once ("Admin/config.php");
+    require_once ("Admin/constants.php");
 ?>
 
 <!--page-->

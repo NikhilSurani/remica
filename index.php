@@ -116,8 +116,8 @@
         <div class="inner_content">
             <!--welcome-->
             <div class="welcome_index">
-                <a href="#"><span class="hue_block white normal">Professional</span></a> &
-                <span class="hue"> Outstanding</span> ideas of our passionate team makes us unique in every <span>sense</span>
+                <a href="#"><span class="hue_block white normal">Welcome to Remica Exports Pvt Ltd - Your one-stop destination for Floor and Bathroom Tiles	 </span></a> &
+                <span class="hue">Beautifully crafted tiles for bathrooms that inspire</span> Versatile range of floor tiles to transform <span>houses into homes</span>
             </div>
             <!--//welcome-->
         </div>
@@ -136,10 +136,11 @@
 				<div class="tile">
 					<div class="intro-icon-disc cont-large"><i class="fa fa-search intro-icon-large"></i></div>
 					<h6>
-						<span>RESEARCH & DEVELOPMENT<br><a href="#">built for &amp; by nerds</a></span>
+						<span><b>Ultimate Quality</b><br></span>
 					</h6>
 					<p align="justify">
-						The culture of quality and services at Remica Ceramics is today furthered by our technological adroitness.We have developed over a period of time. 
+					We carefully select our floor and bathroom tiles from leading suppliers with strict quality controls in place to ensure that you’re getting the best quality tiles.
+ 
 					</p>
 					</div> 
 				<div class="pad25"></div>
@@ -149,10 +150,10 @@
 				<div class="tile">
 					<div class="intro-icon-disc cont-large"><i class="fa fa-leaf intro-icon-large"></i></div>
 						<h6>
-							<span>ENVIRONMENT<br><a href="#">12-column grid</a></span>
+							<span><b>Beautiful Designs</b><br></span>
 						</h6>
 						<p align="justify">
-							Remica Green heritage is vital to our production of porcelain surfacing products that are and always have been sustainable, green.
+						We choose designs that are vivacious and beautiful that charms everyone with its unique look to transform your space into something exciting.
 						</p>
 						</div> 
 				<div class="pad25"></div>
@@ -161,9 +162,9 @@
 			<div class="col-sm-6 col-md-3">
 				<div class="tile">
 					<div class="intro-icon-disc cont-large"><i class="fa fa-flask intro-icon-large"></i></div>
-						<h6><span>TECHNOLOGY<br><a href="#">responsive</a></span></h6>
+						<h6><span>Best Service<br></span></h6>
 						<p align="justify">
-							From its inception, Remica Ceramics has been committed to innovation and advanced technological content along with forward-looking.
+						We are a team of experts specializing in the tiling installations ensuring quality finishes in our work.
 						</p>	
 						</div> 
 				<div class="pad25"></div>
@@ -172,9 +173,9 @@
 			<div class="col-sm-6 col-md-3">
 					<div class="tile">
 						<div class="intro-icon-disc cont-large"><i class="fa fa-book  intro-icon-large"></i></div>
-							<h6><span>EXHIBITION & FAIR<br><a href="#">growing library</a></span></h6>
+							<h6><span>100% Customer Satisfaction<br></span></h6>
 							<p align="justify">
-								Drawing on our full suite, we at Remica Ceramics showcases our vast portfolio of products and design at the most prestigious exhibitions.
+							We value each and every one of our customers and that’s why we thrive to provide 100% customer satisfaction in all our services.
 							</p>	
 							</div> 
 					<div class="pad25"></div>
@@ -193,12 +194,12 @@
 			<div class="col-sm-12 col-md-12">
 			<h1 class="center">Recent Work</h1>
 			<h4 class="center">
-				Lorem ipsum dolor sit amet, rebum putant recusabo in ius, pri simul tempor ne, his ei summo virtute.
+			Take a moment to have a look at some of our recent amazing work
 			</h4>
-			<p class="center">
+			<!-- <p class="center">
 				Nam ea labitur pericula. Meis tamquam pro te, cibo mutat necessitatibus id vim. An his tamquam postulant, pri id mazim nostrud diceret 
 				sapientem eloquentiam sea cu, sea ut exerci delicata. Corrumpit vituperata.
-			</p>
+			</p> -->
 			
 			<!-- <a href="#" class="btn btn-primary btn-custom btn-rounded">view portfolio</a> -->
 			<div class="pad30"></div>

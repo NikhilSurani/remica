@@ -3,11 +3,12 @@
 <div id="footer">
 		<h1>get in touch</h1>
 			<h3 class="center follow">
-				We're social and we'd love to hear from you! Feel free to send us an email, find us on Google Plus, follow us on Twitter and join us on Facebook.
+			Have requirements for tiles? We would love to help.
+Drop us an email or message us on social media and we will get back to you soon.
+
 			</h3>
 	<div class="follow_us">
-		<a href="http://twitter.com/share?text=Test Message&url=http://www.remicatiles.com" class="fa fa-twitter follow_us" target="_blank"></a>
-		<a href="http://www.facebook.com/sharer.php?s=100&p[url]=http://www.remicatiles.com&p[images][0]=http://www.remicatiles.com/img/the-best-school-logo.png&p[title]=Remica Tiles&p[summary]=Remica Tiles" class="fa fa-facebook follow_us" target="_blank"></a>
+		<a href="http://twitter.com/share?text=Test Message&url=http://www.remicatiles.com" class="fa fa-twitter follow_us" target="_blank"></a>		
 		<a href="#" class="fa fa-linkedin follow_us" target="_blank"></a><br/>
         <button type="button" class="btn btn-default">Contact us</button>
 	</div>

@@ -82,7 +82,7 @@
                             </ul> -->
                         </li>
 
-							<li class="dropdown page_drop_down "><a href="javascript:{}">Works</a>
+							<!-- <li class="dropdown page_drop_down "><a href="javascript:{}">Works</a>
 						<ul class="dropdown-menu">
 								<li><a href="portfolio_2columns.html">2 Columns</a></li>
 								<li><a href="portfolio_3columns.html">3 Columns</a></li>
@@ -96,7 +96,7 @@
 								<li><a href="full_slider.html">Full Slider</a></li>
 								<li><a href="full_video.html">Full Video</a></li>
 						</ul>
-							</li>
+							</li> -->
 							<li class="dropdown "><a href="javascript:{}">Portfolio</a>
 						<ul class="dropdown-menu">								
 								<li><a href="floor.php">FLOOR</a>
