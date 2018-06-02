@@ -7,18 +7,46 @@
 		<div class="container intro_wrapper">
 			<div class="inner_content">
 				<!-- <h1>Get In Touch</h1> -->
-					<h1 class="title">Contact Information</h1>
-						<h1 class="intro">
+					<h1 class="title">Contact Us</h1>
+						<!-- <h1 class="intro">
 							It's art if it can't be explained. It's <span>fashion</span> if no one asks for an <span>explanation.</span> 
 							It's <span class="hue">design</span> if it doesn't need explanation. - Wouter Stokkel
-						</h1>
+						</h1> -->
 					</div>
 				</div>
 			</div>
 			
 		<!--//GOOGLE MAP - ADD YOUR ADDRESS AT THE BOTTOM OF THE PAGE -->
 			<div id="google-maps">
-        		<div class="google-maps"></div>
+				<div class="google-maps">
+
+					<html>
+					<head>
+						<title>Simple Map</title>
+						<meta name="viewport" content="initial-scale=1.0">
+						<meta charset="utf-8">
+						<style>
+						/* Always set the map height explicitly to define the size of the div
+						* element that contains the map. */
+						#map {
+							height: 100%;
+						}
+						/* Optional: Makes the sample page fill the window. */
+						html, body {
+							height: 100%;
+							margin: 0;
+							padding: 0;
+						}
+						</style>
+					</head>
+					<body>
+						<div id="map"></div>
+						
+					</body>
+					</html>
+				
+				</div>
+				
         	</div>
         <!-- // End Google Map -->
 		
@@ -38,7 +66,7 @@
 					</h5>
 				
 					<h5>
-						E-mail: <a href="mailto:siddharthshah141@gmail.com">siddharthshah141@gmail.com</a><br>
+						E-mail: <a href="mailto:siddharthshah141@gmail.com">remicatiles@gmail.com</a><br>
 						Phone: 02823 - 222162
 					</h5>
 				</div>

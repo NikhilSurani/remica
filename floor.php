@@ -8,12 +8,12 @@
 <div id="banner">
 		<div class="container intro_wrapper">
 			<div class="inner_content">
-				<h1>Work</h1>
-					<h1 class="title">4 Column Portfolio</h1>
-						<h1 class="intro">
+				<!-- <h1>Work</h1> -->
+					<h1 class="title">Floor Tiles</h1>
+						<!-- <h1 class="intro">
 							Web design is the creation of <span class="hue">digital environments</span>, that <span>facilitate</span> and encourage
 							human activity; <span>reflect </span> or adapt to individual voices and content. - Jeffrey Zeldman
-						</h1>
+						</h1> -->
 					</div>
 				</div>
 			</div>

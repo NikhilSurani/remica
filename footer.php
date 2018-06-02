@@ -9,10 +9,14 @@ Drop us an email or message us on social media and we will get back to you soon.
 			</h3>
 	<div class="follow_us">
 		<a href="http://twitter.com/share?text=Test Message&url=http://www.remicatiles.com" class="fa fa-twitter follow_us" target="_blank"></a>		
-		<a href="#" class="fa fa-linkedin follow_us" target="_blank"></a><br/>
-        <button type="button" class="btn btn-default">Contact us</button>
+		<a href="#" class="fa fa-linkedin follow_us" target="_blank"></a><br/>		
+		<!-- <button type="button" class="btn btn-default">Contact us</button> -->
+		<!-- <a href="contact.php" class="btn btn-primary btn-custom btn-rounded">Contact Us</a> -->
+
+		
 	</div>
 </div>
+
 
 <!-- footer 2 -->
 	<div id="footer2">
@@ -34,6 +38,7 @@ Drop us an email or message us on social media and we will get back to you soon.
 					</div>
 				<!-- up to top -->
 				<a href="#"><i class="go-top fa fa-angle-double-up"></i></a>
+				
 
 
 								
@@ -77,10 +82,25 @@ Drop us an email or message us on social media and we will get back to you soon.
 <script type="text/javascript" src="Backend_JS/common.js" ></script>
 <!-- carousel -->
 <script type="text/javascript" src="js/jquery.carouFredSel-6.2.1-packed.js"></script>
+<script>
+						var map;
+						function initMap() {
+							map = new google.maps.Map(document.getElementById('map'), {
+							center: {lat: 21.761524, lng: 70.627625},
+							zoom: 8
+							});
+						}
+						</script>
+						<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDF9iOBTHg56eGBu-eWx05Aj53fz31Up_0&callback=initMap"
+						async defer>
+						</script>
+		
 <script type="text/javascript">
 
-jQuery(document).ready(function($) {
-	$("#slider_home").carouFredSel({ 
+
+jQuery(document).ready(function($) 	{
+	if($("#slider_home").length > 0){
+		$("#slider_home").carouFredSel({ 
 		width : "100%", 
 		height : "auto",
 		responsive : true,
@@ -92,21 +112,21 @@ jQuery(document).ready(function($) {
 		prev : { button : "#sl-prev", key : "left"},
 		next : { button : "#sl-next", key : "right" }
 		});
+	}
+	if($('.projects').length > 0){
+		var $container = $('.projects');
+		$container.imagesLoaded(function() {
+		$('.projects').fadeIn(1000).isotope({
+		layoutMode : 'fitRows',
+		itemSelector : '.element' });
+		});
+		$('.element').css('opacity',0);
+		$('.element').each(function(i){
+		$(this).delay(i*150).animate({'opacity':1},350);	
+		});
+	}
 
-	});
-
-	var $container = $('.projects');
-	$container.imagesLoaded(function() {
-	$('.projects').fadeIn(1000).isotope({
-	layoutMode : 'fitRows',
-    itemSelector : '.element' });
-	});
-	$('.element').css('opacity',0);
-	$('.element').each(function(i){
-	$(this).delay(i*150).animate({'opacity':1},350);
-	
-	
-});
+	});	
 
 </script>
 <script src="styleswitcher/js/styleswitcher.js"></script>

@@ -2,6 +2,7 @@
   require('header.php');
 ?>
 <!--page-->
+
 	<!-- <div id="banner">
 			<div class="container intro_wrapper">
 				<div class="inner_content"> -->
@@ -17,51 +18,54 @@
 
 			<!--strip-->
 			<div class="strip">
-					<h1 class="text-center" style="font-size: 40px;">About Us</h1>
-					<h3 class="about_strip">
+					<!-- <h1 class="text-center" style="font-size: 40px;">About Us</h1> -->
+					<h1 class="title" style=" text-align: center; font-size: 40px;">About Us</h1>
+					<!-- <h3 class=" text-center">
 						The company has witnessed an unprecedented growth in terms of Size, Volume and Geographical Presence and much of this is credited to its robust Research and development activities.
-					</h3>
-					<br>
+					</h3> -->
+					<!-- <br> -->
 					<h3 class="about_strip">
-						Qutone is one of the companies to employ maximum efforts and capital in Research and development to bring original yet classy designs & technology. New designs added to the portfolio almost every month with varied application right from kitchen, living room, Bathroom and exteriors. The latest being R-11Technology with a Anti Skid Properties & Anti Erosion feature apart from Sugar Finish & Specialized Matt surfaces for High Traffic areas likes Malls, Hospitals & other Public places.
+					<p align="center">Established in the year 1994, Remica Exports Pvt Ltd started its business as Remica tiles, a leading tiles manufacturer in Jetpur, Gujarat. From a small vision of Mr. Kishor Bhai, today after 24 years the company has now become a principal trader in the field of ceramic industry selling floor and wall tiles of 20+ leading brands. 
+
+Remica specializes in offering a huge range of high quality digitized wall and floor tiles for kitchens and bathrooms. Remica strives to provide a best and unparalleled service to its customers and help them find what they are looking for.  
+
+No matter what kind of room you want tile in, Remica has the perfect flooring or wall tiles for you. Each piece creatively transforms your ordinary room into something spectacular. Contact us and show your design tastes and we will help you in creating the room of your dreams.</p>
+
 					</h3>
 					<!-- <a href="contact.php" class="big_button">Contact Us Today</a> -->
 				</div>
 			<!--/strip-->
 			
 <div class="container wrapper">
-<h1 class="text-center" style="font-size: 40px;">Testimonial</h1>
+<h1 class="text-center" style="font-size: 40px;">TESTIMONIAL</h1>
 	<div class="inner_content">
 		<div class="row pad30">
 <!--col 1-->		
-<div class="col-sm-4 col-md-4">
+<!-- <div class="col-sm-4 col-md-6">
 			<div class="animated bounceInLeft"><i class="fa fa-bolt colour big"></i></div>
 		<h2>Our Philosophy</h2>
 			<p>
-				<span>Wullam ligula sapien, pharetra eget volutpat vel, consequat in lectus. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-				Class aptent taciti sociosqu ad litora torquent per conubia nostra.</span>
+				<span>To make Remica a leading global trader in the ceramic industry by delivering high quality tiles and tiling solutions to our customers.</span>
 			</p>
 			<div class="pad25"></div>
-			</div>
+			</div> -->
 				
 <!--col 2-->					
-<div class="col-sm-4 col-md-4">
+<div class="col-sm-4 col-md-6">
 			<div class="animated bounceInDown"><i class="fa fa-cogs colour big"></i></div>
-		<h2>Our Mission</h2>
-			<p>
-				Mauris viverra, tortor eget interdum lacinia, lacus mi tempor purus, eu commodo enim dui ac nisl. Morbi euismod ante quis tellus imperdiet porta. 
-				Morbi nisi nibh, facilisis a varius.
+		<h2 align="center">Our Mission</h2>
+			<p align="center">
+			<span> To help our customers in making their homes and workplaces reflect their individuality and nature through our tiles and tiling solutions.</span>
 			</p>
 					
 					<div class="pad25"></div>
 				</div>
 <!--col 3-->					
-		<div class="col-sm-4 col-md-4">
+		<div class="col-sm-4 col-md-6">
 		<div class="animated bounceInRight"><i class="fa fa-lightbulb-o colour big"></i></div>
-		<h2>Our Process</h2>
-			<p>
-				Mauris viverra, tortor eget interdum lacinia, lacus mi tempor purus, eu commodo enim dui ac nisl. Morbi euismod ante quis tellus imperdiet porta. 
-				Morbi nisi nibh, facilisis a varius.
+		<h2 align="center">Our Vision</h2>
+			<p align="center">
+			<span>To make Remica a leading global trader in the ceramic industry by delivering high quality tiles and tiling solutions to our customers.</span>
 			</p>
 					
 				<div class="pad25"></div>
@@ -98,7 +102,7 @@
 		<!-- </div> -->
    	
 			<div class="container wrapper">
-			<h1 class="text-center" style="font-size: 40px;">Our Team</h1>
+			<h1 class="text-center" style="font-size: 40px;">OUR TEAM</h1>
 	<div class="inner_content">
 	
 		<div class="row pad30">		
@@ -130,10 +134,10 @@
 				<span>Kamal Shah</span>
 			</h5>
 			<p>			
-			<small class="muted">- CEO - </small><br/>
+			<small class="muted">- Chief Executive Officer - </small><br/>
 			</p>
 			<p class="team_bio">
-				Praesent vestibulum taciti sociosqu ad litora molestie. Aenean hendrerit mauris phasellus porta. Fusce suscipit varius mi lorem.
+			Kamal is a Commerce Graduate and is working in this industry for last 15 years. His in-depth knowledge of the entire process helps the company in cracking better deals and providing best quality services to its customers. He is the man behind getting almost over 20 brands on board and actively manages all the purchase happening at Remica.
 			</p>
 			<hr class="team-line">
 			<!-- <a href="#" class="zocial icon twitter team_ic"></a> -->
@@ -150,10 +154,10 @@
 				<span>Siddharth Shah</span>
 			</h5>
 			<p>
-				<small class="muted">- MANAGING DIRECTORS - </small>
+				<small class="muted">- Managing Director - </small>
 			</p>
 			<p class="team_bio">
-				Praesent vestibulum taciti sociosqu ad litora molestie. Aenean hendrerit mauris phasellus porta. Fusce suscipit varius mi lorem.
+			Siddharth is a Masters degree holder in Business Administration and leads the entire Sales and Marketing department at Remica. He has 3 years of experience and is always up for the risks necessary to take the business to a next level. He is imaginative, explorative and adventurous which steers Remica to try new lands and opportunities for growth.
 			</p>
 			<hr class="team-line">			
 			<a href="http://twitter.com/Shahssiddharth" class="zocial icon twitter team_ic follow_us" target="_blank"></a>					
