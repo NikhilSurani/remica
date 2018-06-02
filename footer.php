@@ -82,51 +82,37 @@ Drop us an email or message us on social media and we will get back to you soon.
 <script type="text/javascript" src="Backend_JS/common.js" ></script>
 <!-- carousel -->
 <script type="text/javascript" src="js/jquery.carouFredSel-6.2.1-packed.js"></script>
-<script>
-						var map;
-						function initMap() {
-							map = new google.maps.Map(document.getElementById('map'), {
-							center: {lat: 21.761524, lng: 70.627625},
-							zoom: 8
-							});
-						}
-						</script>
-						<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDF9iOBTHg56eGBu-eWx05Aj53fz31Up_0&callback=initMap"
-						async defer>
-						</script>
-		
+
 <script type="text/javascript">
+	jQuery(document).ready(function($) 	{
+		if($("#slider_home").length > 0){
+			$("#slider_home").carouFredSel({ 
+			width : "100%", 
+			height : "auto",
+			responsive : true,
+			auto : false,
+			items : { width : 280, visible: { min: 1, max: 3 }
+			},
+			swipe : { onTouch : true, onMouse : true },
+			scroll: { items: 1, },
+			prev : { button : "#sl-prev", key : "left"},
+			next : { button : "#sl-next", key : "right" }
+			});
+		}
+		if($('.projects').length > 0){
+			var $container = $('.projects');
+			$container.imagesLoaded(function() {
+			$('.projects').fadeIn(1000).isotope({
+			layoutMode : 'fitRows',
+			itemSelector : '.element' });
+			});
+			$('.element').css('opacity',0);
+			$('.element').each(function(i){
+			$(this).delay(i*150).animate({'opacity':1},350);	
+			});
+		}
 
-
-jQuery(document).ready(function($) 	{
-	if($("#slider_home").length > 0){
-		$("#slider_home").carouFredSel({ 
-		width : "100%", 
-		height : "auto",
-		responsive : true,
-		auto : false,
-		items : { width : 280, visible: { min: 1, max: 3 }
-		},
-		swipe : { onTouch : true, onMouse : true },
-		scroll: { items: 1, },
-		prev : { button : "#sl-prev", key : "left"},
-		next : { button : "#sl-next", key : "right" }
-		});
-	}
-	if($('.projects').length > 0){
-		var $container = $('.projects');
-		$container.imagesLoaded(function() {
-		$('.projects').fadeIn(1000).isotope({
-		layoutMode : 'fitRows',
-		itemSelector : '.element' });
-		});
-		$('.element').css('opacity',0);
-		$('.element').each(function(i){
-		$(this).delay(i*150).animate({'opacity':1},350);	
-		});
-	}
-
-	});	
+		});	
 
 </script>
 <script src="styleswitcher/js/styleswitcher.js"></script>

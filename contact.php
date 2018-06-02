@@ -17,37 +17,15 @@
 			</div>
 			
 		<!--//GOOGLE MAP - ADD YOUR ADDRESS AT THE BOTTOM OF THE PAGE -->
-			<div id="google-maps">
-				<div class="google-maps">
-
-					<html>
-					<head>
-						<title>Simple Map</title>
-						<meta name="viewport" content="initial-scale=1.0">
-						<meta charset="utf-8">
-						<style>
-						/* Always set the map height explicitly to define the size of the div
-						* element that contains the map. */
-						#map {
-							height: 100%;
-						}
-						/* Optional: Makes the sample page fill the window. */
-						html, body {
-							height: 100%;
-							margin: 0;
-							padding: 0;
-						}
-						</style>
-					</head>
-					<body>
-						<div id="map"></div>
-						
-					</body>
-					</html>
-				
-				</div>
-				
-        	</div>
+		<div id="google-maps" style='height:100%;'>
+			<div class="google-maps">
+			<script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key= AIzaSyDjRJRMbRwaYoq1PDhWCofk00E7UC33-_c'>
+			</script>
+			<div style='overflow:hidden;height:100%;width:100%;'>
+			<div id='gmap_canvas' style='height:100%;width:100%'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div>
+			<script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=60d594e691cbe884234a8872549985da160180d2'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:13,center:new google.maps.LatLng(21.7535117,70.59530940000002),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(21.7535117,70.59530940000002)});infowindow = new google.maps.InfoWindow({content:'<strong>Remica Tiles</strong><br>Dhoraji Road, Opp. Tatkal Hanuman Temple<br>360370 Jetpur<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+			</div>
+		</div>
         <!-- // End Google Map -->
 		
 		<div class="container wrapper pad10">
