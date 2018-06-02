@@ -5,4 +5,11 @@
     margin-top: 15px;    
     margin-right: 15px;
     padding-left: 15px;
+    font-size: 25px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 400;
+    padding: auto;
+    /* padding-left: 6px; */
+    /* padding-right: inherit; */
 }

@@ -54,7 +54,7 @@
 		
 			<div class="logo">				
 				<a href="index.php"><img src="img/logo.png" alt="Remica Tiles" class="animated bounceInDown" /></a> 
-				<div class="caption rev-title-sub logo-text"><?= SITE_TITLE ?></div>
+				<div class="caption logo-text"><?= SITE_TITLE ?></div>
 			</div>
 		</div>
            

@@ -52,7 +52,7 @@ No matter what kind of room you want tile in, Remica has the perfect flooring or
 				
 <!--col 2-->					
 <div class="col-sm-4 col-md-6">
-			<div class="animated bounceInDown"><i class="fa fa-cogs colour big"></i></div>
+			<div class="animated bounceInDown" align="center"><i class="fa fa-cogs colour big"></i></div>
 		<h2 align="center">Our Mission</h2>
 			<p align="center">
 			<span> To help our customers in making their homes and workplaces reflect their individuality and nature through our tiles and tiling solutions.</span>
@@ -62,7 +62,7 @@ No matter what kind of room you want tile in, Remica has the perfect flooring or
 				</div>
 <!--col 3-->					
 		<div class="col-sm-4 col-md-6">
-		<div class="animated bounceInRight"><i class="fa fa-lightbulb-o colour big"></i></div>
+		<div class="animated bounceInRight" align="center"><i class="fa fa-lightbulb-o colour big"></i></div>
 		<h2 align="center">Our Vision</h2>
 			<p align="center">
 			<span>To make Remica a leading global trader in the ceramic industry by delivering high quality tiles and tiling solutions to our customers.</span>

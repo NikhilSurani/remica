@@ -164,7 +164,7 @@
 					<div class="intro-icon-disc cont-large"><i class="fa fa-flask intro-icon-large"></i></div>
 						<h6><span>Best Service<br></span></h6>
 						<p align="justify">
-						We are a team of experts specializing in the tiling installations ensuring quality finishes in our work.
+						We are a team of experts specializing in the tiling installations ensuring quality finishes in our work. It's nature of accepting challenges.
 						</p>	
 						</div> 
 				<div class="pad25"></div>
